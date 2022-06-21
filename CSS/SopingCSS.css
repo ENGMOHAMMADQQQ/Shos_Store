@@ -1,0 +1,247 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'kumbh sans','sans-serif';
+    font-size: 16px;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.logo{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+nav{
+    margin-top: 30px;
+    padding-top: 40px;
+    width: 65%;
+    height: 14%;
+    padding-bottom: 40px;
+    border-bottom: solid 2px #b6bcc870 ;
+    float: left;
+    margin-left: -140px; 
+    color: #9ea3ad;
+    padding-left: 135px;
+    font-size:  15px; 
+}
+nav .ul1 .li1 a{
+    text-decoration: none;
+    color: #69707d;
+}
+nav .ul1 .li1 a:hover{
+    border-bottom: solid 4px orange;
+}
+.li1{
+    display: inline;
+    padding-left: 30px;
+}
+.ul1{
+   float: left;
+}
+.cart{
+    margin-left: -115px;
+    margin-top: 35px;
+}
+.avatar{
+    margin-left: -45px;
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+}
+.aside5 img{
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.aside6 img{
+    width: 80px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.aside6{
+    margin-left: 289px;
+    margin-top: -30px;
+    
+    
+}
+.aside6 img a:hover{
+    background-color: #b6bcc8;
+    
+}
+.aside7{
+    margin-left: 830px;
+    margin-top: -500px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color:#ff7e1b;
+    font-style: normal;
+    font-weight: bold;
+}
+.aside8{
+
+   margin-left: 830px;
+   margin-top: 20px;
+   font-size: 35px;
+}
+.aside9{
+    margin-left: 830px;
+    font-size: 16px;
+    color: #69707d;
+    font-style: normal;
+    line-height: 24px;
+}
+.aside11 .h1{
+    margin-left: 830px;
+    margin-top: 20px;
+    font-size: 27px;
+}
+.aside11 .span1{
+    
+    margin-left: 20px;
+    font-size: 18px;
+    background-color:  #fad7bf;
+    color: #ff7e1b;
+    border-radius: 5px;
+}
+
+.aside12{
+    margin-left: 830px;
+    margin-top: 20px;
+    font-size: 18px;
+    color:  #b6bcc8;
+    text-decoration-line:line-through;
+}
+.aside13{
+    margin-left: 830px;
+    display: inline;
+    
+}
+.aside14 .span2 h1{
+   
+  margin-left:860px ;
+  margin-top:-20px ;
+  
+  
+}
+.aside15 {
+    margin-left: 890px;
+    margin-top: -37px;
+    
+  
+}
+.aside15 button{
+    
+    background-color:#e8ebfc ;
+    border-width:0px ;
+}
+
+.aside13 button{
+    
+    background-color:#e8ebfc ;
+    border-width:0px ;
+}
+.aside16{
+    
+  margin-left: 950px;
+  margin-top: -30px;
+     
+   
+}
+.aside16 button{
+    background-color:#ff7e1b ;
+    border-width: 0px;
+    color: azure;
+    width: 190px;
+    height: 37px;
+    border-radius: 5px;
+  
+   
+}
+.aside16 img{
+  width: 15px;
+  margin-right: 10px;
+   
+}
+ .aside17 span{
+     width: 12px;
+     height: 12px;
+     background: #ff7e1b;
+     display: inline-block;
+     border-radius: 5px;
+     position: relative;
+     left: -105px;
+     top: 4px;
+     font-size: 11px;
+     color: #ffff;
+     text-align: center;
+ }
+
+
+
+
+
+
+
+
+/*body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'kumbh sans', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+nav{
+    margin-top: 50px;
+    padding-top: 40px;
+    width: 65%;
+    height: 17px;
+    padding-bottom: 70px;
+    float: left;
+    margin-left: -140px;
+    color: #9ea3ad;
+    border-bottom: solid 2px #b6bcc870;
+    padding-left: 135px;
+    font-size: 15px;
+}  
+.logo{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+nav .ul1 .li1 a{
+    text-decoration:none;
+    color: #69707d;
+}
+.li1{
+    display: inline;
+    padding-left: 25px;*/
+    /* padding-bottom:50px ; f*/ 
+    /* text-decoration:none;f */
+/*}
+.ul1{*/
+    /* padding-left: 350px; f*/
+    /* border-bottom: solid 2px silver;f */
+    /* padding-top: 500px; f*/
+  /*  float: left;
+}
+.cart{
+    margin-left: -115px;
+    margin-top: 35px;
+}
+.avatar{
+    margin-left: -45px;
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+}*/

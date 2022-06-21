@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoping shose</title>
+    <link rel="stylesheet" href="CSS/SopingCSS.css">
+</head>
+<body>
+   <header>
+   <aside class="aside1">
+       <img class="logo" src="images/logo.svg" alt="">
+   </aside>
+   
+       <nav>
+           <ul class="ul1" >
+               <li class="li1"><a href="#"> Collections</a> </li>  
+               <li class="li1"><a href="#">Men</a></li>  
+               <li class="li1"><a href="#">Women</a></li>  
+               <li class="li1"><a href="#">About </a></li>  
+               <li class="li1"><a href="#">Contact</a> </li>  
+           </ul>
+       </nav>
+   
+   <aside class="aside3" >
+      <a href=""> <img class="cart" src="images/icon-cart.svg" alt=""></a>
+   </aside>
+   <aside class="aside4" >
+    <a href=""> <img class="avatar" src="images/image-avatar.png" alt=""></a>
+   </aside >
+  
+   <aside class="aside17">
+    <span>
+      1 
+    
+    </span>
+   </aside>
+
+   </header> 
+  <section>
+       <aside class="aside5" >
+       <img src="images/image-product-1.jpg" alt="">
+       </aside>
+       <aside class="aside6" >
+          <a href=""><img src="images/image-product-2-thumbnail.jpg" alt="" srcset="" id="img1" onmouseover="imga()" onmouseout="imgb()"></a> 
+          <a href=""><img src="images/image-product-3-thumbnail.jpg" alt="" srcset=""  id="img2" onmouseover="imgc()" onmouseout="imgd()"></a> 
+          <a href=""><img src="images/image-product-4-thumbnail.jpg" alt="" srcset="" id="img3" onmouseover="imge()" onmouseout="imgf()" ></a> 
+          <a href=""><img src="images/image-product-1-thumbnail.jpg" alt="" srcset=""id="img4" onmouseover="imgg()" onmouseout="imgh()"></a> 
+       </aside>
+       <aside class="aside7">
+           <h3>SNEAKER COMPANY</h3>
+       </aside>
+       <aside class="aside8">
+           <h1>Fall Limited Edition <br> Sneakers</h1>
+       </aside>
+       <aside class="aside9">
+           <p>These low-profile sneakers are your perfect casual wear <br> 
+             companion. Featuring a durabla rudder outer sole, they'll <br>
+             withstand everything the weather can offer.</p>
+       </aside>
+       <aside class="aside11">
+        <h1 class="h1" >$125.00 <span class="span1">50%</span> </h1>
+    </aside>
+       <aside class="aside12">
+        <h1>$250.00</h1>
+    </aside>
+    
+    <aside class="aside13">
+        <button class="btn1" onclick="bb()">
+            <img src="images/icon-minus.svg" alt="" srcset="" class="img1" id="minus">
+        </button>
+    </aside>
+        <aside class="aside14" >
+         <span class="span2" > <h1 id="h2">1</h1> </span>
+    </aside >
+    <aside class="aside15">
+        <button class="btn2" onclick="aa()" id="btn2">
+
+          <img src="images/icon-plus.svg" alt="" srcset="" id="plus" >
+        </button>
+        
+    </aside>
+    <aside class="aside16">
+        <button onclick="m()"><img src="images/icon-cart.svg" alt="" srcset=""> Add To Cart</button>
+    </aside>
+   </section >
+   
+   <script>
+    
+
+       let h2 =document.getElementById("h2");
+    function aa(){
+      let newvalue = Number(h2.innerText)+1;
+      h2.innerText=newvalue;
+    
+
+    }
+      
+    function bb(){ 
+        if( Number(h2.innerText)<=1){
+            return false;
+        }
+      else{
+        let newvalue = Number(h2.innerText)-1;
+      h2.innerText=newvalue;
+         
+      }
+   
+    }
+    let img1 = document.getElementById("img1");
+    function imga(){
+        
+        document.getElementById("img1").style.opacity=0.5;
+    }
+    function imgb(){
+        document.getElementById("img1").style.opacity=1;
+    }
+
+    let img2 = document.getElementById("img2");
+    function imgc(){
+        
+        document.getElementById("img2").style.opacity=0.5;
+    }
+    function imgd(){
+        document.getElementById("img2").style.opacity=1;
+    }
+    let img3 = document.getElementById("img3");
+    function imge(){
+        
+        document.getElementById("img3").style.opacity=0.5;
+    }
+    function imgf(){
+        document.getElementById("img3").style.opacity=1;
+    }
+    let img4 = document.getElementById("img4");
+    function imgg(){
+        
+        document.getElementById("img4").style.opacity=0.5;
+    }
+    function imgh(){
+        document.getElementById("img4").style.opacity=1;
+    }
+
+    
+   </script>
+</body>
+</html>
